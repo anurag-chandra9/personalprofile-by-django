@@ -1,0 +1,114 @@
+
+{% comment %} <h3>anurag chandra</h3>
+<img src="{%static 'images/pic.jpeg'%}"> {% endcomment %}
+{%load  static  %}   
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="{%static '/css/main.css'%}" rel="stylesheet"
+type="text/css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+<body>
+    <br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/pic.jpeg' %}" >
+					<hr>
+					<h4>Hi I'm Anurag!</h4>
+					<p>I love coding, doing research and collaborating</p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>INTRODUCTION</h4>
+					<hr>
+                    
+					<p>I am a 3rd-year B.Tech student specializing in Metallurgical and Materials Engineering at the National Institute of
+                        Technology (NIT) Srinagar. With a strong interest in the technology field, I have developed a solid foundation in
+                        frontend development, utilizing modern frameworks and tools to create dynamic and user-friendly applications.</p>
+
+					<p> I
+                        am passionate about leveraging my technical skills to contribute to innovative projects and explore opportunities
+                        in the tech industry.</p>
+
+					{% comment %} <p>From this you’ll see that I’m someone that jumps before I can talk myself out of doing something scary.</p> {% endcomment %}
+
+					<ul class="social-links">
+                        
+                        <a href="mailto:anuragkrstm01@gmail.com"> 	<li><img class="social" src="{% static 'images/mail.jpg' %}"></li>   </a>
+
+
+                        <a href="https://www.linkedin.com/in/anurag-chandra9/"><li><img class="social" src="{% static 'images/linkedin.png' %}"></li></a>
+						{% comment %} <li><img class="social" src="{% static 'images/linkedin.png' %}"></li> {% endcomment %}
+                        <a href="https://www.instagram.com/anurag.chandra9?igsh=MXJiaDEweTNkcWg4dg==" > 	<li><img class="social" src="{% static 'images/OIP.jpg' %}"></li> </a>
+
+                     
+                        <a href="https://github.com/anurag-chandra9">     <li><img class="social" src="{% static 'images/git.png' %}"></li></a>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Experience as a Developer</h5>
+					<hr>
+					<p>Frontend developer at Zoblik.</p>
+					<p>I am a React.js developer who builds projects with a focus on dynamic, interactive user interfaces. I specialize in leveraging React's capabilities to create seamless and efficient web applications.</p>
+					</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>What I Know</h5>
+					<hr>
+                    <p> <b>Programming Languages:</b> C, C++, HTML, CSS, JavaScript, Tailwindcss, Python</p>
+                    <p> <b>Framework:</b> React.js, Django, MATLAB</p>
+                    <p> <b>Platforms & Technologies:</b> Bootstrrap,LaTeX, VS Code, Canva, Git, GitHub, Thermocal</p>
+					{% comment %} <p>Python, Django, HTML/CSS, JavaScript/Jquery, React, Postgres, AWS and APIs such as google maps, JavaScript charts and a whole bunch more I can’t possibly mention in one sentence! ;)</p>
+					<p>PS: Working on Node JS, Mongo DB and Machine Learning.</p> {% endcomment %}
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>How I Learn</h5>
+					<hr>
+					<p>I learned React.js by building hands-on projects, starting with small components and gradually moving to full-fledged applications. I explored concepts like React Hooks, state management, and routing while working on practical use cases, debugging issues, and refining my skills through documentation and community resources.</p>
+
+					{% comment %} <p>I can learn just about anything by having a final product to tear apart piece by piece. I break the code where I need to figure out why things work the way they do. Documentation is just a reference.</p> {% endcomment %}
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Short Term Goals</h5>
+				<hr>
+				<p>As a 3rd-year B.Tech student, my short-term goals are to actively explore and contribute to the tech field by engaging in hands-on projects, internships, and collaborative opportunities. I aim to enhance my skills in web development, AI, and emerging technologies, while applying my knowledge to create impactful solutions and build a strong foundation for my future career.</p>
+				{% comment %} <p>Aside from building small projects I would love to enter a position where I can be part of a bigger team & learn from others with more experience than myself.</p> {% endcomment %}
+
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+   
+
+
+    
+</body>
+</html>

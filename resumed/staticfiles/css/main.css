@@ -1,0 +1,55 @@
+body{
+	background-color:#F8F8F8!important;
+}
+
+#profile-wrapper{
+	text-align: center;
+}
+
+#profile-pic{
+	width:150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+ul{
+	padding: 0;
+    list-style-type: none;
+}
+
+
+/* .social-links ul, li{
+	list-style-type:none;
+	display: inline-block;
+}
+
+.social{
+	width:20px;
+	height: 20px;
+} */
+.social-links {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Arrange items in a row */
+    gap: 10px; /* Add spacing between items (optional) */
+    justify-content: center; /* Center the images horizontally (optional) */
+}
+
+.social-links li {
+    display: inline-block; /* Ensure each list item stays inline */
+}
+
+.social {
+    width: 40px; /* Adjust image size */
+    height: 40px; /* Ensure uniform height */
+    object-fit: contain; /* Maintain image aspect ratio */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: transform 0.3s ease; /* Smooth hover effect (optional) */
+}
+
+.social:hover {
+    transform: scale(1.1); /* Slight zoom-in on hover (optional) */
+}
